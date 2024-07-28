@@ -1,0 +1,16 @@
+bank:
+  name: mbbank
+  accountNumber: xxxxxxxxxx #Số Tài Khoản
+  accountName: xxxxxxxxxx #Tên Chủ Tài Khoản
+  addInfo: defaultInfo #Để Im Không Đụng Vào
+api:
+  url: http://14.185.8.50:3000/check
+  username: exampleUser
+  password: examplePass
+  accountNumber: '1234567890' #Số Tài Khoản
+
+commandsOnSuccess:
+  - title <player> title Nạp Thành Công <amount> VND
+  - give <player> diamond 1
+
+HetHanGiaoDich: 600 #Khuyến Khích Nên Để Trên 5p Để Api Kịp Trả Kết Quả

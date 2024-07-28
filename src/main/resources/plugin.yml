@@ -1,0 +1,15 @@
+name: BankAuto
+version: 1.0-SNAPSHOT
+main: org.krbpank.bankauto.BankAuto
+api-version: 1.20
+permissions:
+  bankauto.reload:
+    description: Allows reloading the BankAuto configuration.
+    default: op
+commands:
+  atm:
+    description: Retrieves API data.
+    usage: /atm <test/reload>
+  naptien:
+    description: Provides a map with transaction details.
+    usage: /naptien <huy>
